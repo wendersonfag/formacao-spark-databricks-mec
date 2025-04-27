@@ -80,11 +80,6 @@ Let’s run the container in the background with the correct working directory:
    docker run -d --name spark-container -v /Users/luanmorenomaciel/GitHub/frm-spark-databricks-mec/src/spark/mod-1/scripts:/app -w /app bitnami/spark:latest tail -f /dev/null
    ```
 
-   ```powershell
-   docker run -d --name spark-container -v C:\Users\wende\workspace\EngenhariaDeDadosAcademy\formacao-spark-databricks\frm-spark-databricks-mec\src\spark\mod-1\scripts:/app -w /app bitnami/spark:latest tail -f /dev/null
-
-   ```
-
 2. Verify it’s running:
    ```bash
    docker ps
